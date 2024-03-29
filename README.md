@@ -8,10 +8,10 @@ The goal is to create as much of the C Standard Library as possible, given that 
 From the top-level directory, enter the follwong command:
 `$ make`
 
-# How to Install
+## How to Install
 Currently, there is no installation process. Installing the header files and the libc.a library must be done by hand.
 
-# Console IO
+## Console IO
 Even though there is no operating system dependancy, console input and output can be done by implementing functions conforming to the following prototypes:
 
 ```
