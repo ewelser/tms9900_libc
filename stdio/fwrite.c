@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-size_t fwrite(void *ptr, size_t size, size_t nmemb, FILE *f)
+size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *f)
 {
   size_t count = 0;
   while(nmemb--)

@@ -2,8 +2,12 @@
 
 int fputs(const char *s, FILE *f)
 {
-  int ret;
-  while(*s && (ret = fputc(*s++, f)) != EOF);
+  int ret = 0;
+  while((*s != 0) &&
+        (ret != EOF))
+  {
+    ret = fputc(*s++, f);
+  }
   return(ret);
 }
 

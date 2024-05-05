@@ -39,7 +39,7 @@ extern size_t fread(void *ptr, size_t size, size_t nmemb, FILE *f);
 extern int fscanf(FILE *f, const char *format, ...);
 extern int fseek(FILE *f, long offset, int whence);
 extern long ftell(FILE *f);
-extern size_t fwrite(void *ptr, size_t size, size_t nmemb, FILE *f);
+extern size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *f);
 extern int printf(const char *format, ...);
 extern int putchar(int c);
 extern int puts(const char *str);
